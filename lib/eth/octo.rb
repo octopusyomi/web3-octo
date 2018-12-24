@@ -1,8 +1,14 @@
 require 'eth/octo/version'
-
-module Eth
-  module Octo
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require 'eth/octo/version'
+# require 'eth/octo/abi/abi_coder'
+require 'eth/octo/utility'
+require 'eth/octo/block'
+require 'eth/octo/transaction'
+require 'eth/octo/contract'
+require 'eth/octo/call_trace'
+require 'eth/octo/log'
+require 'eth/octo/transaction_receipt'
+require 'eth/octo/eth_module'
+require 'eth/octo/trace_module'
+require 'eth/octo/etherscan'
+require 'eth/octo/rpc'
