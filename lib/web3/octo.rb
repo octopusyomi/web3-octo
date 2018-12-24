@@ -1,5 +1,5 @@
 require 'web3/octo/version'
-# require 'eth/octo/abi/abi_coder'
+require 'web3/octo/abi/abi_coder'
 require 'web3/octo/utility'
 require 'web3/octo/block'
 require 'web3/octo/transaction'

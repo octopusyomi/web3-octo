@@ -33,7 +33,7 @@ module Web3
         TransactionReceipt.new @web3_rpc.request("#{PREFIX}#{__method__}", [tx_hash])
       end
       def getUncleByBlockNumberAndIndex block_number, uncle_position, convert_to_object = true
-        resp = @web3_rpc.request("#{PREFIX}#{__method__}", [block_number,uncle_position])
+        resp = @web3_rpc.request("#{PREFIX}#{__method__}", [block_number, uncle_position])
         convert_to_object ? Block.new(resp) : resp
       end
 

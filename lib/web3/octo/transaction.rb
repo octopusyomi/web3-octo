@@ -16,7 +16,7 @@ module Web3
       end
 
       def method_hash
-        if input && input.length>=10
+        if input && input.length >= 10
           input[2...10]
         else
           nil
