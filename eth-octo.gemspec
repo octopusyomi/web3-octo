@@ -1,10 +1,10 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ethereum/octopus/version'
+require 'eth/octo/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'eth-octo'
-  spec.version       = Ethereum::Octopus::VERSION
+  spec.version       = Eth::Octo::VERSION
   spec.authors       = ['Octopus Yomi']
   spec.email         = ['octopusbrat@gmail.com']
 
