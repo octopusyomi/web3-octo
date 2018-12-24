@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['octopusbrat@gmail.com']
 
   spec.summary       = 'Test gem for parsing ethereum node'
-  spec.description   = 'Test gem for parsing ethereum node'
+  spec.description   = 'Test gem for parsing ethereum node parity'
   spec.homepage      = 'https://github.com/octopusyomi/eth-octo'
   spec.license       = 'MIT'
 
@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.17'
-  spec.add_dependency('digest-sha3', '~> 1.1.0')
+  spec.add_dependency('digest-sha3', '~> 1.1', '>= 1.1.0')
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_dependency('rlp', '~> 0.7.3')
