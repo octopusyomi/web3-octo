@@ -1,9 +1,9 @@
-module Eht
+module Web3
   module Octo
 
     class Transaction
 
-      include Eth::Octo::Utility
+      include Web3::Octo::Utility
 
       attr_reader :raw_data
 

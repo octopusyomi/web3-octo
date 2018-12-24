@@ -1,9 +1,9 @@
-module Eth
+module Web3
   module Octo
 
     class CallTrace
 
-      include Eth::Octo::Utility
+      include Web3::Octo::Utility
 
       attr_reader :raw_data
 

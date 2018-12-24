@@ -1,9 +1,9 @@
-module Eth
+module Web3
   module Octo
 
     class TransactionReceipt
 
-      include Eth::Octo::Utility
+      include Web3::Octo::Utility
 
       attr_reader :raw_data
 
@@ -15,7 +15,7 @@ module Eth
           self.class.send(:define_method, k, proc {self.instance_variable_get("@#{k}")})
         end
 
-        @logs = @logs.collect {|log|  Eth::Octo::Log.new log }
+        @logs = @logs.collect {|log|  Web3::Octo::Log.new log }
 
       end
 

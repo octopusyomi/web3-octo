@@ -1,9 +1,9 @@
-module Eth
+module Web3
   module Octo
 
     class EthModule
 
-      include Eth::Octo::Utility
+      include Web3::Octo::Utility
 
       PREFIX = 'eth_'.freeze
 
@@ -38,7 +38,7 @@ module Eth
       end
 
       def contract abi
-        Web3::Eth::Contract.new abi, @web3_rpc
+        Web3::Octo::Contract.new abi, @web3_rpc
       end
 
       def load_contract etherscan_api, contract_address

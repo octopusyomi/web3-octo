@@ -1,9 +1,9 @@
-module Eth
+module Web3
   module Octo
 
     class TraceModule
 
-      include Eth::Octo::Utility
+      include Web3::Octo::Utility
 
       PREFIX = 'trace_'
 

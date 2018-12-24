@@ -1,5 +1,5 @@
 module Web3
-  module Eth
+  module Octo
     class Contract
 
       class ContractInstance

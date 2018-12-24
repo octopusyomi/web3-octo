@@ -1,4 +1,4 @@
-module Eth
+module Web3
   module Octo
 
     module Utility
